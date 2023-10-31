@@ -1,21 +1,4 @@
-// src/App.js
-// import React from 'react';
-// import PatientManagementApp from './components/PatientManagementApp';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <h1>Patient Management System</h1>
-//       </header>
-//       <main>
-//         <PatientManagementApp />
-//       </main>
-//     </div>
-//   );
-// }
-
-// export default App;
 
 // src/App.js
 import React from 'react';
@@ -25,7 +8,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Patient Management System</h1>
+        {/* <h1>Patient Management System</h1> */}
+       
       </header>
       <main>
         <PatientManagementApp />
