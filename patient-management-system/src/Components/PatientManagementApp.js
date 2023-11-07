@@ -20,7 +20,7 @@ const PatientManagementApp = () => {
 
   const handleAddPatient = (newPatient) => {
     // Use axios here
-    axios.post('http://localhost:3001/patients', newPatient)
+    axios.post('http://localhost:3000/patients', newPatient)
       .then(response => setPatients([...patients, response.data]))
       .catch(error => console.error('Error adding patient', error));
 

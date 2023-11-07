@@ -2,7 +2,7 @@
 
 // src/App.js
 import React from 'react';
-// import PatientManagementApp from './components/PatientManagementApp'; // Check the case and spelling here
+// import PatientManagementApp from './components/PatientManagementApp'; 
 import PatientManagementApp from './Components/PatientManagementApp';
 function App() {
   return (
